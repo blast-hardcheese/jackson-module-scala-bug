@@ -1,5 +1,12 @@
 name := "regression"
 
+// Last known good version: 2.11.4
+// Tested versions:
+//   Pass:
+//   - 2.11.4
+//   Fail:
+//   - 2.12.0
+//   - 2.12.1
 val jacksonVersion         = "2.12.1"
 
 libraryDependencies ++= Seq(
